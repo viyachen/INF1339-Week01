@@ -1,2 +1,2 @@
 # INF1339-Week01
-come to area51
+welcome to area51
