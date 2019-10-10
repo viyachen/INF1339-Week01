@@ -20,14 +20,14 @@
         document.getElementById("binary_output").innerHTML=bin
         
         //send binary number to function bin2ssd()
-        document.getElementById("bin2ssd_input").innerHTML=bin
+        document.getElementById("binary2ssd_input").innerHTML=bin
         var ssd = bin2ssd(bin)
-        document.getElementById("bin2ssd_output").innerHTML=ssd
+        document.getElementById("binary2ssd_output").innerHTML=ssd
         
         //send ssd signals to illuminate_segments()
         document.getElementById("illuminate_input").innerHTML=ssd
         illuminate(ssd)
-        document.getElementById("bin2ssd_output").innerHTML='done'
+        document.getElementById("illuminate_output").innerHTML='done'
     }
     
     function dec2bin (decimal){
